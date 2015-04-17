@@ -63,6 +63,11 @@ public class WaitScreen {
 			right.startAnimation(rightAnimation);  
 		}
 	}
+	/**
+	 * 关闭弹屏
+	 * @author JPH
+	 * @date 2015-4-17 下午2:59:33
+	 */
 	public void dismiss() {
 		if (popupWindow!=null&&popupWindow.isShowing()) {
 			popupWindow.dismiss();	
